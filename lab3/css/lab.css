@@ -7,3 +7,12 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .home-code {
+    margin: 10px;
+    max-width: 1500px;
+  }
+  .lab3-code {
+    margin: 10px;
+    max-width: 1500px;
+  }
