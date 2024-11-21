@@ -1,0 +1,23 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  #output {
+    font-family: Arial, sans-serif; /* Clean font */
+    font-size: 16px; /* Readable font size */
+    line-height: 1.5; /* Slightly increased line height for spacing */
+}
+.row {
+    display: flex; /* Display items in a row */
+    gap: 10px; /* Add spacing between items */
+}
+.row span {
+    flex: 1; /* Distribute space evenly */
+    text-align: left; /* Align numbers to the left */
+}
