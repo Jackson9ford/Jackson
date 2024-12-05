@@ -1,0 +1,21 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* General Styles */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+#content .minor-section #output {
+  text-align: center; /* Center the content */
+  margin-top: 20px;
+}
+
+/* Style for the displayed GIF inside the results section */
+#content .minor-section #output img {
+  max-width: 100%; /* Ensure the GIF doesn't overflow */
+  height: auto;
+}
